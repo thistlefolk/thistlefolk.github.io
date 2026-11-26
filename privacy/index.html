@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — Island Grid Dispatcher — Thistle Folk</title>
+  <meta name="description" content="Privacy policy for Island Grid Dispatcher by Thistle Folk. The Windows app runs offline and does not collect personal information.">
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0 auto;
+      max-width: 44rem;
+      padding: 2rem 1.25rem 3rem;
+      font: 16px/1.55 ui-sans-serif, system-ui, "Noto Sans CJK SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #18251f;
+      background: #f7f8f4;
+    }
+    header, section { margin-bottom: 2rem; }
+    h1 { font-size: 1.6rem; margin: 0 0 .4rem; }
+    h2 { font-size: 1.2rem; margin: 1.6rem 0 .5rem; }
+    h3 { font-size: 1.05rem; margin: 1.2rem 0 .4rem; }
+    p, li { margin: 0 0 .75rem; }
+    .meta, footer { color: #5a6c62; font-size: .92rem; }
+    a { color: #176d4d; }
+    hr { border: 0; border-top: 1px solid #d9e1da; margin: 2.2rem 0; }
+    nav a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="meta">Thistle Folk · Island Grid Dispatcher</p>
+    <h1>Privacy policy / 隐私政策</h1>
+    <p class="meta">Effective date: 26 November 2026 (2026-11-26)<br>Contact: <a href="mailto:hello@thistlefolk.com">hello@thistlefolk.com</a></p>
+    <nav><a href="#en">English</a><a href="#zh">简体中文</a></nav>
+  </header>
+
+  <section id="en" lang="en">
+    <h2>English</h2>
+    <p>Thistle Folk (“we”) publishes Island Grid Dispatcher, an offline educational simulation. This policy describes what the Windows app does with information on your computer. It applies to the Microsoft Store package identified as ThistleFolk.IslandGridDispatcher (Store ID 9N0S3WBT7J21).</p>
+
+    <h3>The app does not collect personal information</h3>
+    <p>The app does not ask you to create an account or to enter your name, email address, payment details, or any other personal information. We do not include advertising, analytics, crash-reporting, or other telemetry in the app. We do not sell or share customer information, because the app does not send information to us.</p>
+
+    <h3>The app runs offline during normal use</h3>
+    <p>Game files are included in the package. A small host program shows them in a Microsoft Edge WebView2 window, reading them from the install folder through an in-process handler at <code>https://app.localhost/</code>. That address is not a website on the public internet. The host blocks navigation away from this packaged content and does not declare an internet-client capability.</p>
+    <p>During normal play the app does not make network requests and does not contact Thistle Folk or any other service.</p>
+
+    <h3>One optional, user-started exception</h3>
+    <p>The app needs the Microsoft Edge WebView2 Runtime. Windows 11 includes this runtime. Some Windows 10 PCs do not. If the runtime is missing, the host shows a message and, only if you choose OK, opens Microsoft’s official WebView2 download page in your default browser:</p>
+    <p><a href="https://developer.microsoft.com/microsoft-edge/webview2/">https://developer.microsoft.com/microsoft-edge/webview2/</a></p>
+    <p>That step is started by you. The game itself does not download the runtime in the background and does not send us a notice.</p>
+
+    <h3>Information stored only on your device</h3>
+    <ul>
+      <li><strong>Language preference.</strong> If you switch between English and Simplified Chinese, the app may save that choice in the WebView2 profile as a local preference named <code>dispatcher-language</code>. Nothing else is written to this storage.</li>
+      <li><strong>WebView2 profile.</strong> The host keeps a WebView2 user-data folder under your Windows profile, typically <code>%LOCALAPPDATA%\ThistleFolk.IslandGridDispatcher\WebView2</code>. This is ordinary browser engine data (for example cache) used only on your PC. We cannot read it.</li>
+    </ul>
+    <p>Uninstalling the app removes the package. You can also delete the folder above if it remains after uninstall. There is no account for us to delete, because we do not hold your data.</p>
+
+    <h3>Children</h3>
+    <p>The app is a general educational simulation and is not directed at children. It does not collect personal information from anyone, including children.</p>
+
+    <h3>Changes</h3>
+    <p>If a later version of the app starts collecting, storing, or transmitting personal information, we will update this policy and the Store listing before that version is published. The date at the top of this policy is the effective date of the current text.</p>
+
+    <h3>Contact</h3>
+    <p>Questions about this policy or the app: <a href="mailto:hello@thistlefolk.com">hello@thistlefolk.com</a></p>
+  </section>
+
+  <hr>
+
+  <section id="zh" lang="zh-Hans">
+    <h2>简体中文</h2>
+    <p>Thistle Folk（“我们”）发行《孤网调度员》（Island Grid Dispatcher），这是一款离线教学仿真。本政策说明该 Windows 应用如何处理你电脑上的信息，适用于 Microsoft Store 包 ThistleFolk.IslandGridDispatcher（Store ID 9N0S3WBT7J21）。</p>
+
+    <h3>应用不收集个人信息</h3>
+    <p>应用不会要求你注册账户，也不会要求填写姓名、电子邮箱、付款信息或其他个人信息。应用内没有广告、分析、崩溃报告或其他遥测。我们不会出售或共享用户信息，因为应用不会向我们发送信息。</p>
+
+    <h3>正常使用时离线运行</h3>
+    <p>游戏文件包含在安装包内。一个小型宿主程序在 Microsoft Edge WebView2 窗口中显示这些文件，通过进程内处理程序从安装目录读取，地址为 <code>https://app.localhost/</code>。这不是互联网上的网站。宿主会阻止离开该打包内容的导航，并且未声明 internetClient 能力。</p>
+    <p>正常游玩时，应用不会发起网络请求，也不会联系 Thistle Folk 或任何其他服务。</p>
+
+    <h3>一项由用户主动发起的例外</h3>
+    <p>本应用需要 Microsoft Edge WebView2 运行时。Windows 11 已预装；部分 Windows 10 电脑可能没有。如果缺少该运行时，宿主会弹出说明；只有在你选择“确定”后，才会用默认浏览器打开微软官方下载页：</p>
+    <p><a href="https://developer.microsoft.com/microsoft-edge/webview2/">https://developer.microsoft.com/microsoft-edge/webview2/</a></p>
+    <p>这一步由你主动发起。游戏本身不会在后台下载运行时，也不会向我们发送通知。</p>
+
+    <h3>仅保存在本机的信息</h3>
+    <ul>
+      <li><strong>语言偏好。</strong> 如果你在 English 和简体中文之间切换，应用可能把该选择保存在 WebView2 配置中，键名为 <code>dispatcher-language</code>。此外不会向该存储写入其他内容。</li>
+      <li><strong>WebView2 配置目录。</strong> 宿主会在你的 Windows 用户目录下保留 WebView2 用户数据，通常位于 <code>%LOCALAPPDATA%\ThistleFolk.IslandGridDispatcher\WebView2</code>。这是浏览器引擎在本机使用的常规数据（例如缓存），我们无法读取。</li>
+    </ul>
+    <p>卸载应用会移除安装包。如果卸载后上述文件夹仍在，也可以自行删除。我们没有需要删除的账户，因为我们并不保存你的数据。</p>
+
+    <h3>儿童</h3>
+    <p>本应用是面向一般使用者的教学仿真，不以儿童为对象。它不会向任何人（包括儿童）收集个人信息。</p>
+
+    <h3>变更</h3>
+    <p>如果后续版本开始收集、存储或传输个人信息，我们会在该版本发布前更新本政策和商店商品页。文首日期为现行文本的生效日期。</p>
+
+    <h3>联系</h3>
+    <p>如对本政策或本应用有疑问，请发送邮件至 <a href="mailto:hello@thistlefolk.com">hello@thistlefolk.com</a>。</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Thistle Folk. Island Grid Dispatcher.</p>
+  </footer>
+</body>
+</html>
